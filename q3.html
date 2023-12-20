@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="q3.css">
+
+</head>
+
+<body>
+    <div>
+
+
+        <form action="./backend.php">
+            <fieldset>
+                <legend >
+                    <h1 class="heading">Sign-up</h1>
+                </legend>
+                <label for="FirstName">First Name:</label>
+                <input type="text" name="FirstName" id="FirstName" placeholder="First Name" minlength="2">
+                <br><br>
+                <label for="LastName">Last Name:</label>
+                <input type="text" name="LastName" id="LastName" placeholder="Last Name" minlength="2">
+                <br><br>
+                <label for="Email">Enter E-Mail:</label>
+                <input type="text" name="Email" id="Email" placeholder="@gmail.com">
+                <br><br>
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" max="150">
+                <br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <br><br>
+                <label for="password">Enter Password:</label>
+                <input type="password" name="password" id="password" placeholder="********" maxlength="8">
+                <br><br>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" name="password" id="password" placeholder="********" maxlength="8">
+                <br><br>
+                <input type="checkbox" name="t&c" id="t&c" value="t&c">Terms and Conditions
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+                <br>
+
+            </fieldset>
+        </form>
+
+    </div>
+</body>
+
+</html>

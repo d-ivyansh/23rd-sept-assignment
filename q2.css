@@ -1,0 +1,35 @@
+.first_para{
+    border: 1px solid brown; 
+    margin : 5px;
+    padding: 2%;
+    background-color: aliceblue;
+}
+.second_para{
+    color: rgb(75, 156, 228);
+    width: 20%;
+    
+}
+.third_para{
+    width: 20%;
+    background-color: aqua;
+    border: 2px dotted;
+    border-radius: 2px;
+    margin-left: 30%;
+}
+.mixed{
+    display: flex;
+    justify-content: center;
+}
+.fourth_para{
+    border: 2px solid ;
+    background-color: beige;
+    width: 40%;
+    padding: 2%;
+}
+.fifth_para{
+    border: 2px solid ;
+    background-color: beige;
+    width: 40%;
+    padding : 2%;
+    margin-left: 15%;
+}
