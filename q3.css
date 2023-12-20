@@ -7,8 +7,15 @@ div {
   width: fit-content;
   padding: 10px;
   margin-left: 30%;
+ 
 }
-
+.bg_img{
+    background-image: url(8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 
 
@@ -18,6 +25,7 @@ div {
 
 fieldset {
   border-color: blueviolet;
+  
 }
 
 #submit {
@@ -29,9 +37,13 @@ fieldset {
 input{
     border-color: blueviolet;
     border-radius: 5px;
+    background-color: aliceblue;
     
 }
+::placeholder{
+    opacity: 50%;
+}
 label{
-   
+   color: aliceblue;
     display: inline-block;
 }
